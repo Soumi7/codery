@@ -13,16 +13,17 @@ class YoutubeHandler(object):
 
     def usage(self) -> str:
         return '''
-        Codery, your helper to competitive coding!
+        
+        'Hey there! I am codery, your helper to competitive coding!'
         '''
     help_content = "*Help for Codery bot* :robot_face: : \n\n" \
                    "The bot responds to messages starting with @codery-bot.\n\n" \
-                   "`@codery-bot <search contests>` will return top contests for the given `<search term>`.\n" \
-                   "`@codery-bot top <search terms>` also returns the top Youtube result.\n" \
-                   "`@codery-bot list <search terms>` will return a list Youtube videos for the given <search term>.\n \n" \
+                   "`@codery-bot <search contests>` will return top Contests for the given `<search term>`.\n" \
+                   "`@codery-bot top <search terms>` also returns the top Contest result.\n" \
+                   "`@codery-bot list <search terms>` will return a list of contests for the given <search term>.\n \n" \
                    "Example:\n" \
-                   " * @mention-bot funny cats\n" \
-                   " * @mention-bot list funny dogs"
+                   " * @codery-bot funny cats\n" \
+                   " * @codery-bot list funny dogs"
 
     def initialize(self, bot_handler: Any) -> None:
         self.config_info = bot_handler.get_config_info('youtube')
@@ -131,19 +132,22 @@ def get_bot_response(query: Optional[str], command: Optional[str], config_info: 
 handler_class = YoutubeHandler
 
 
+'''
 
 class HelloWorldHandler(object):
     def usage(self) -> str:
-        return '''
+        return 
         This is a boilerplate bot that responds to a user query with
         "beep boop", which is robot for "Hello World".
 
         This bot can be used as a template for other, more
         sophisticated, bots.
-        '''
+        
 
     def handle_message(self, message: Dict[str, Any], bot_handler: Any) -> None:
         content = 'Hey there! I am codery!'  # type: str
         bot_handler.send_reply(message, content)
 
 handler_class = HelloWorldHandler
+
+'''
