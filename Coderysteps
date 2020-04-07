@@ -1,0 +1,5 @@
+After general instructions, to run codery, follow steps:
+
+cd /python-zulip-api/zulip_bots/zulip_bots/bots
+source /home/soumi/python-zulip-api/zulip-api-py3-venv/bin/activate
+zulip-run-bot codery --config-file ~/Downloads/zuliprc
