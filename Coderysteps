@@ -1,4 +1,4 @@
-After general instructions, to run codery, follow steps:
+After general instructions and downloading zuliprc of codery in Downloads, to run codery, follow steps:
 
 cd /python-zulip-api/zulip_bots/zulip_bots/bots
 source /home/soumi/python-zulip-api/zulip-api-py3-venv/bin/activate
