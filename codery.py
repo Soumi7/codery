@@ -16,7 +16,7 @@ class HelloWorldHandler(object):
         '''
 
     def handle_message(self, message: Dict[str, Any], bot_handler: Any) -> None:
-        content = 'beep boop'  # type: str
+        content = 'Hey there! I am codery!'  # type: str
         bot_handler.send_reply(message, content)
 
 handler_class = HelloWorldHandler
