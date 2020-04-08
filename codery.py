@@ -38,7 +38,7 @@ def google_search(keywords: str) -> List[Dict[str, str]]:
     return results
 
 def get_google_result(search_keywords: str) -> str:
-    help_content = "*Help for Codery bot* :robot_face: : \n\n" \
+    help_message = "*Help for Codery bot* :robot_face: : \n\n" \
                    "The bot responds to messages starting with @codery-bot.\n\n" \
                    "`@codery-bot <search contests>` will return top Contests for the given `<search term>`.\n" \
                    "`@codery-bot top <search terms>` also returns the top Contest result.\n" \
@@ -46,15 +46,8 @@ def get_google_result(search_keywords: str) -> str:
                    "Example:\n" \
                    " * @codery-bot funny cats\n" \
                    " * @codery-bot list funny dogs"
-                   
-    help_message = "To use this bot, start messages with @mentioned-bot, \
-                    followed by what you want to search for. If \
-                    found, Zulip will return the first search result \
-                    on Google.\
-                    \
-                    An example message that could be sent is:\
-                    '@mentioned-bot zulip' or \
-                    '@mentioned-bot how to create a chatbot'."
+
+    
 
     search_keywords = search_keywords.strip()
 
