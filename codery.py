@@ -68,8 +68,23 @@ def get_google_result(search_keywords: str) -> str:
         rows  = contentTable.find_all('tr')
         l=""
         for row in rows:
-            l+=row.get_text()
+            l+=row.get_text()+"\n"
+
         return l
+
+    elif search_keywords =='top contest':
+        
+
+        URL = 'https://www.stopstalk.com/contests'
+
+
+        page = requests.get(URL)
+        content = requests.get(URL)
+        soup = BeautifulSoup(content.text, 'html.parser')
+        contentTable  = soup.find('table', { "class" : "centered bordered"}) # Use dictionary to pass key : value pair
+        rows  = contentTable.find_all('tr')
+        
+        return rows[1].get_text()
 
     elif search_keywords == '' or search_keywords is None:
         return help_message
