@@ -12,11 +12,11 @@ def google_search(keywords: str) -> List[Dict[str, str]]:
     query = {'q': keywords}
     URL = 'https://www.stopstalk.com/contests'
     # Gets the page
-    page = requests.get(URL, params=query)
+    page = requests.get('https://www.hackerearth.com/challenges', params=query)
     # Parses the page into BeautifulSoup
     #soup = BeautifulSoup(page.text, "lxml")
 
-    soup = BeautifulSoup(content.text, 'html.parser')
+    
 
     # Gets all search URLs
     anchors = soup.find(id='search').findAll('a')
