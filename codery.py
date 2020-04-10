@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from typing import Dict, Any, Union, List
 
 
-def get_google_result(codery_keywords: str) -> str:
+def get_codery_result(codery_keywords: str) -> str:
     help_message = "*Help for Codery bot* :robot_face: : \n\n" \
                    "The bot responds to messages starting with @codery-bot.\n\n" \
                    "`@codery-bot contests` will return top Contests today, their dates, time left and the links to each contest`.\n" \
@@ -185,7 +185,7 @@ class CoderyHandler(object):
 
     def handle_message(self, message: Dict[str, str], bot_handler: Any) -> None:
         original_content = message['content']
-        result = get_google_result(original_content)
+        result = get_codery_result(original_content)
         bot_handler.send_reply(message, result)
 
 handler_class = CoderyHandler
