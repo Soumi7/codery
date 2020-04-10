@@ -8,54 +8,28 @@ from bs4 import BeautifulSoup
 
 from typing import Dict, Any, Union, List
 
-def google_search(keywords: str) -> List[Dict[str, str]]:
-    query = {'q': keywords}
-    URL = 'https://www.stopstalk.com/contests'
-    # Gets the page
-    content  = requests.get(URL, params=query)
-    # Parses the page into BeautifulSoup
-    #soup = BeautifulSoup(page.text, "lxml")
-       
-    soup = BeautifulSoup(content.text, 'html.parser')
-    # Gets all search URLs
-    anchors = soup.find(id='search').findAll('a')
-    results = []
 
-    for a in anchors:
-        try:
-            # Tries to get the href property of the URL
-            link = a['href']
-        except KeyError:
-            continue
-        # Link must start with '/url?', as these are the search result links
-        if not link.startswith('/url?'):
-            continue
-        # Makes sure a hidden 'cached' result isn't displayed
-        if a.text.strip() == 'Cached' and 'webcache.googleusercontent.com' in a['href']:
-            continue
-        # a.text: The name of the page
-        result = {'url': "https://www.google.com{}".format(link),
-                  'name': a.text}
-        results.append(result)
-    return results
-
-def get_google_result(search_keywords: str) -> str:
+def get_google_result(codery_keywords: str) -> str:
     help_message = "*Help for Codery bot* :robot_face: : \n\n" \
                    "The bot responds to messages starting with @codery-bot.\n\n" \
-                   "`@codery-bot <search contests>` will return top Contests for the given `<search term>`.\n" \
-                   "`@codery-bot top <search terms>` also returns the top Contest result.\n" \
-                   "`@codery-bot list <search terms>` will return a list of contests for the given <search term>.\n \n" \
+                   "`@codery-bot contests` will return top Contests today, their dates, time left and the links to each contest`.\n" \
+                   "`@codery-bot top contest` also returns the top Contest result.\n" \
+                   "`@codery-bot top <n> contests` will return n number of top contests at that time.\n \n" \
                    "Example:\n" \
-                   " * @codery-bot funny cats\n" \
-                   " * @codery-bot list funny dogs"
+                   " * @codery-bot contests\n" \
+                   " * @codery-bot top contest\n" \
+                   " * @codery-bot top 7 contests"
 
     
 
-    search_keywords = search_keywords.strip()
+    codery_keywords = codery_keywords.strip()
+    codery_keywords_list=codery_keywords.split(" ")
 
-    if search_keywords == 'help':
+    if codery_keywords == 'help':
         return help_message
-    elif search_keywords =='contests':
+    
+
+    elif codery_keywords =='contests':
         
 
         URL = 'https://www.stopstalk.com/contests'
@@ -65,56 +39,148 @@ def get_google_result(search_keywords: str) -> str:
         content = requests.get(URL)
         soup = BeautifulSoup(content.text, 'html.parser')
         contentTable  = soup.find('table', { "class" : "centered bordered"}) # Use dictionary to pass key : value pair
+
+
+
         rows  = contentTable.find_all('tr')
-        l=""
-        for row in rows:
-            l+=row.get_text()+"\n"
+        l=[]
+        i=0
 
-        return l
-
-    elif search_keywords =='top contest':
+        for row in rows[1:]:
+            l.append("##")
+            columns = row.find_all('td')
+            for column in columns:
+                if column.get_text() != "":
+                    l.append((column.get_text()).strip() + "@@")
         
+    
+            l.append((columns[4].find('a')['href']).strip())
+            i+=1
+            
+        l1="The top contests and hackathons of  today are \n"
+        for r in l:
+            allContest = r.split("##")
+            for eachContest in allContest:
+                attrList = eachContest.split("@@")
+                for attr in attrList:
+                    l1+=attr+"\n"
 
+            
+
+        return l1
+
+    #return a list of top contests
+    elif codery_keywords =='top contest':
         URL = 'https://www.stopstalk.com/contests'
 
 
-        page = requests.get(URL)
+        
         content = requests.get(URL)
         soup = BeautifulSoup(content.text, 'html.parser')
         contentTable  = soup.find('table', { "class" : "centered bordered"}) # Use dictionary to pass key : value pair
-        rows  = contentTable.find_all('tr')
+
+
         
-        return rows[1].get_text()
+        
+        rows  = contentTable.find_all('tr')
+        l=[]
+        i=0
 
-    elif search_keywords == '' or search_keywords is None:
+        for row in rows[1:]:
+            l.append("##")
+            columns = row.find_all('td')
+            for column in columns:
+                if column.get_text() != "":
+                    l.append((column.get_text()).strip() + "@@")
+        
+    
+            l.append((columns[4].find('a')['href']).strip())
+            i+=1
+            if i==1:
+                break
+        l1=""
+        for r in l:
+            allContest = r.split("##")
+            for eachContest in allContest:
+                attrList = eachContest.split("@@")
+                for attr in attrList:
+                    l1+=attr+"\n"
+
+            
+
+        return l1
+    
+    #to return a list of n top contests
+    elif len(codery_keywords_list)==3:
+
+        if codery_keywords_list[0]=="top" and codery_keywords_list[2]=="contests":
+            n=int(codery_keywords_list[1])
+        else:
+            help_message
+        URL = 'https://www.stopstalk.com/contests'
+
+
+        
+        content = requests.get(URL)
+        soup = BeautifulSoup(content.text, 'html.parser')
+        contentTable  = soup.find('table', { "class" : "centered bordered"}) # Use dictionary to pass key : value pair
+
+
+        
+        
+        rows  = contentTable.find_all('tr')
+        l=[]
+        i=0
+
+        for row in rows[1:]:
+            l.append("##")
+            columns = row.find_all('td')
+            for column in columns:
+                if column.get_text() != "":
+                    l.append((column.get_text()).strip() + "@@")
+        
+    
+            l.append((columns[4].find('a')['href']).strip())
+            i+=1
+            if i==n:
+                break
+        l1=""
+        for r in l:
+            allContest = r.split("##")
+            for eachContest in allContest:
+                attrList = eachContest.split("@@")
+                for attr in attrList:
+                    l1+=attr+"\n"
+
+            
+
+        return l1
+
+        
+
+    elif codery_keywords == '' or codery_keywords is None:
         return help_message
-    else:
-        try:
-            results = google_search(search_keywords)
-            if (len(results) == 0):
-                return "Found no results."
-            return "Found Result: [{}]({})".format(results[0]['name'], results[0]['url'])
-        except Exception as e:
-            logging.exception(str(e))
-            return 'Error: Search failed. {}.'.format(e)
-
-class GoogleSearchHandler(object):
+    
+class CoderyHandler(object):
     '''
-    This plugin allows users to enter a search
-    term in Zulip and get the top URL sent back
+    This plugin allows users to get the competitive
+    coding contests in Zulip. It gets the name, the 
+    date, the time left to participate and the links
+    to those challenges in zulip and returns it
     to the context (stream or private) in which
-    it was called. It looks for messages starting
-    with @codery-bot.
+    it was called. It gives contests happening on 
+    HackerEarth, CodeChef, Codeforces and many other
+    competitive programming sites. It looks for 
+    messages starting with @codery-bot.
     '''
 
     def usage(self) -> str:
         return '''
-            This plugin will allow users to search
-            for a given search term on Google from
-            Zulip. Use '@mentioned-bot help' to get
-            more information on the bot usage. Users
-            should preface messages with
-            @codery-bot.
+            This plugin will allow users to get the 
+            information about competitive coding contests
+            and hackathons in Zulip.Use '@codery-bot help' 
+            to get more information on the bot usage. Users
+            should preface messages with @codery-bot.
             '''
 
     def handle_message(self, message: Dict[str, str], bot_handler: Any) -> None:
@@ -122,4 +188,4 @@ class GoogleSearchHandler(object):
         result = get_google_result(original_content)
         bot_handler.send_reply(message, result)
 
-handler_class = GoogleSearchHandler
+handler_class = CoderyHandler
