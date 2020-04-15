@@ -40,6 +40,12 @@ def get_codery_result(codery_keywords: str) -> str:
     elif codery_keywords_list[0]== "calculator":
         return "The answer is"+calculator.get_calculator_response(codery_keywords,CoderyHandler)
 
+    elif codery_keywords_list[0] == "man":
+        
+        os.system("man " + codery_keywords_list[1] + " > man.txt")
+        file = open("man.txt","r")
+        return file.read()
+
     elif codery_keywords =='contests':
         
 
@@ -171,6 +177,10 @@ def get_codery_result(codery_keywords: str) -> str:
 
     elif codery_keywords == '' or codery_keywords is None:
         return help_message
+
+
+
+        
     
 class CoderyHandler(object):
     '''
