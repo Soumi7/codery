@@ -1,9 +1,11 @@
 # See readme.md for instructions on running this code.
 import logging
 from urllib import parse
+import sys, os, zulip
+sys.path.insert(0,os.getcwd())
 
 import requests
-import calculator
+import calculator,todo, dictionary
 
 from bs4 import BeautifulSoup
 
@@ -29,8 +31,14 @@ def get_codery_result(codery_keywords: str) -> str:
     if codery_keywords == 'help':
         return help_message
 
+    elif codery_keywords_list[0] == "todo":
+        return todo.get_todo_response(codery_keywords,CoderyHandler)
+
+    elif codery_keywords_list[0] == "dictionary":
+        return dictionary.get_dictionary_response(codery_keywords,CoderyHandler)
+
     elif codery_keywords_list[0]== "calculator":
-        return calculator.get_calculator_response(codery_keywords,CoderyHandler)
+        return "The answer is"+calculator.get_calculator_response(codery_keywords,CoderyHandler)
 
     elif codery_keywords =='contests':
         
