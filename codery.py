@@ -3,6 +3,7 @@ import logging
 from urllib import parse
 
 import requests
+import calculator
 
 from bs4 import BeautifulSoup
 
@@ -27,7 +28,9 @@ def get_codery_result(codery_keywords: str) -> str:
 
     if codery_keywords == 'help':
         return help_message
-    
+
+    elif codery_keywords_list[0]== "calculator":
+        return calculator.get_calculator_response(codery_keywords,CoderyHandler)
 
     elif codery_keywords =='contests':
         
