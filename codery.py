@@ -5,7 +5,7 @@ import sys, os, zulip
 sys.path.insert(0,os.getcwd())
 
 import requests
-import calculator,todo, dictionary
+import calculator,todo, dictionary,news
 
 from bs4 import BeautifulSoup
 
@@ -45,6 +45,9 @@ def get_codery_result(codery_keywords: str) -> str:
         os.system("man " + codery_keywords_list[1] + " > man.txt")
         file = open("man.txt","r")
         return file.read()
+
+    elif codery_keywords_list[0] == "news":
+        return news.get_news_response(codery_keywords,CoderyHandler)
 
     elif codery_keywords =='contests':
         
