@@ -34,7 +34,7 @@ def get_codery_result(codery_keywords: str) -> str:
     elif codery_keywords_list[0] == "todo":
         return todo.get_todo_response(codery_keywords,CoderyHandler)
 
-    elif codery_keywords_list[0] == "dictionary":
+    elif codery_keywords_list[0] == "search" or codery_keywords_list[0] == "dictionary":
         return dictionary.get_dictionary_response(codery_keywords,CoderyHandler)
 
     elif codery_keywords_list[0]== "calculator":
