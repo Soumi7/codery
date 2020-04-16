@@ -37,40 +37,28 @@
 ## Screenshots :
 
 
-- <img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
-- Women who do yoga during and after treatment of **breast cancer** experience **less** physical discomfort and stress.
-
-- Yoga can lower **blood pressure, cholesterol**, and resting heart rates, and help slow the progression of atherosclerosis—all risk factors for heart disease.
-
-- **Menopausal** women who took two months of a weekly restorative yoga class,  reported a 30 percent decrease in hot flashes.
-
-- People with various types of **arthritis** who practice yoga regularly can **reduce joint pain**, improve joint flexibility and function, and lower stress and tension to promote better sleep.
-
-- Yoga during **pregnancy** have found it is also effective for **reducing depression**, particularly when it is started early in the pregnancy and can be combined with standard depression treatment. Yoga can also reduce pain and discomfort, as well as improve overall quality of life during pregnancy.
-
-## Requirement Specific Tracks
 
 -  ### **POWER YOGA TRACK**
-Adapted from the basic Ashtanga yoga, power yoga requires **increased energy, focus, and strength**. 
-Muscles are challenged as the mind and body have to work together simultaneously to hold a position without giving up. Breathing, posing, moving, and increasing flexibility happen together at one time, which unearths a new level of **discipline** in your mind and body.
+<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
 
 - ### **IMMUNITY** 
-Yoga poses help massage organs and strengthens muscles while breathing techniques and meditation release stress and improve immunity.
+<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
 
 - ### **YOGA IN PREGNANCY** 
-Yoga is a great way to stay active and is healthy for you and your baby. Yoga classes in pregnancy use relaxation and breathing techniques with postures that are adapted for pregnancy.
+<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+
 
 - ### **INSOMNIA** 
-Yoga isn’t just beneficial for improving core strength, flexibility, and stress levels; it can also help you sleep better—especially if you suffer from insomnia. When people who have insomnia perform yoga on a daily basis, they sleep for longer, fall asleep faster, and return to sleep more quickly if they wake up in the middle of the night. This is also true for older people who have insomnia—those who are 60 and older experience better sleep quality, sleep for longer, and feel better during the day when they perform regular yoga.
+<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
 
 - ### **CARDIOVASCULAR YOGA TRACT**
-Yoga to have a positive effect on cardiovascular risk factors: It helped lower blood pressure in people who have hypertension. It's likely that the yoga restores "baroreceptor sensitivity." 
+<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
 
 - ### **MIGRAINE**
-Migraine is a neurological disorder that causes recurring headaches ranging from moderate to high intensity. Yoga is a side-effect-free method to fight migraine. 
+<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
 
 - ### **ASTHMA**
-Yoga can help increase breath and body awareness, slow your respiratory rate, and promote calm and relieve stress — all of which are beneficial for people who have asthma.
+<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
 
 ## License
 
