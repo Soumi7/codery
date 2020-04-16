@@ -31,6 +31,11 @@
 
 - **Calculator** calculates any kind of mathematical operations to do directly on zulip
 
+- **Latest Jobs** gives job titles and application links on zulip using the Github Jobs API
+
+- **Memo** can keep a list of jobs to do
+
+
 ## Video Link
 
 This[https://drive.google.com/file/d/1U9Q6u_UKjGM7z-UrpQyudoT0br8mgPEo/view?usp=drivesdk] is the link to a video demo.
@@ -63,6 +68,11 @@ This[https://drive.google.com/file/d/1U9Q6u_UKjGM7z-UrpQyudoT0br8mgPEo/view?usp=
 
 - ### **Calculator**
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/calculate.png" height="500" alt="Screenshot"/>
+
+- ### **Jobs**
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/jobs.png" height="500" alt="Screenshot"/>
+
+
 
 ## License
 
