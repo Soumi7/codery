@@ -5,7 +5,7 @@ import sys, os, zulip
 sys.path.insert(0,os.getcwd())
 
 import requests
-import calculator,todo, dictionary,news,geekjokes,courses
+import calculator,todo, dictionary,news,geekjokes,courses, jobs
 from bs4 import BeautifulSoup
 
 from typing import Dict, Any, Union, List
@@ -32,6 +32,9 @@ def get_codery_result(codery_keywords: str) -> str:
 
     elif codery_keywords_list[0] == "todo":
         return todo.get_todo_response(codery_keywords,CoderyHandler)
+
+    elif codery_keywords_list[0] == "jobs":
+        return jobs.get_jobs(codery_keywords,CoderyHandler)
 
     elif codery_keywords_list[0] == "search" or codery_keywords_list[0] == "dictionary":
         return dictionary.get_dictionary_response(codery_keywords,CoderyHandler)
