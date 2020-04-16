@@ -1,25 +1,17 @@
 # codery
 
-**PoseAI** is your personal **AI powered Yoga instructor**, allowing you to harness the benefits of yoga from any place you want.
+**Codery** is a **Zulip Bot**.
 
-**PoseAI** uses **computer vision** and a **convolutional neural network** to give you the ultimate yoga experience! It recognises your voice and accordingly guides you through the **yogasana** pose you want to perform.
+## Instructions to run locally:
 
-> Our video link: https://www.youtube.com/watch?v=4bY7KGPIlDY&t=316s
-
-## Lets get you started!
-
-In case you are a newbie into this **amazing world of yoga**, you absolutely do NOT need to worry! All you have to do is ask **PoseAI** to teach you the asana and it will guide you step by step! 
-
-When you perform the asana succesfully, it will recogize your pose and **congratulate** you too, on being a efficient student. 
-
-Its time for people from all walks of life to start paying attention to **physical as well as mental fitness**. 
-
-
-In this hectic lifestyle, we all get so busy with our daily schedule & this is where we always forget to take care of ourselves. It is **important** for us to take **care** of our **body and mind** as well. And this is where yoga comes into play.
-
-Practitioners tout yoga for its mind-body benefits—flexibility, toned muscles, reduced stress, among others. More recently, scientists have begun to test yoga's effect on serious medical conditions. The results have been impressive enough that investigators expect yoga will soon become part of the standard **treatment** for a number of disorders.
-
-**PoseAI** will make sure that from fitness experts to railway workers, who are **exceptionally busy**, do not have to travel to practise yoga. They can do so at any **convienient place**. Also, its never late to get started and nobody is there so you dont even get conscious of youself!
+# Instructions to run locally:
+1. [Create a Zulip Realm](https://zulip.com/create_realm/)
+2. Goto to settings and create a new generic bot named 'codery'. (Settings can be found in dropdown of gear icon present in top right corner of zulip realm)
+3. Download the zuliprc file for your bot and place it in your Downloads directory as '.zuliprc'.
+![](./images/instructions.png)  
+4. Install all the requirements using ``` pip install -r requirements.txt ```  
+5. Run ``` bot.py ``` using python 3. ``` python3 bot.py ```
+6. Head over to your created zulip realm and start using the bot.
 
 ## Screenshots
 
@@ -27,13 +19,13 @@ Practitioners tout yoga for its mind-body benefits—flexibility, toned muscles,
 
 ## Features
 
-- Interactive experience through **real time pose recognition** 
+- **Latest Coding Contests and Hackathons** Gives you the latest contests and Hackathons from CodeChef, Hackereath, Hackerrank and Codeforces. 
 
-- **Voice recognition** which enables the user to engage in conversation
+- **Filters the top contests** Provides the name, time remaining to register and link to the contest or hackathon site.
 
-- Uses **computer vision and deep learning keras models** to guide you through every step of the asana only when you complete the previous step of the asana successfully.
+- **Competitive programming news** get all news related to coding by specifying the keyword after news
 
-- **Specifically designed yoga tracks/playlists** which are suited to the user's health issues, creating a more personalized experience
+- **Search Technical Terms** get the meanings of any technical term
 
 ## How is PoseAI diffrent from all the applications out there
 
