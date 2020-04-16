@@ -4,7 +4,6 @@
 
 ## Instructions to run locally:
 
-# Instructions to run locally:
 1. [Create a Zulip Realm](https://zulip.com/create_realm/)
 2. Goto to settings and create a new generic bot named 'codery'. (Settings can be found in dropdown of gear icon present in top right corner of zulip realm)
 3. Download the zuliprc file for your bot and place it in your Downloads directory as '.zuliprc'.
@@ -12,8 +11,6 @@
 4. Install all the requirements using ``` pip install -r requirements.txt ```  
 5. Run ``` bot.py ``` using python 3. ``` python3 bot.py ```
 6. Head over to your created zulip realm and start using the bot.
-
-
 
 ## Features
 
@@ -41,11 +38,7 @@
 https://drive.google.com/file/d/1WyAcNGo2ZlnpICuU2Kw4IUhBa-fdm4T3/view?usp=sharing is the link to a video demo.
 
 
-
-
 ## Screenshots :
-
-
 
 -  ### **Codery Introduction**
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/Coderystartpage.png" height="500" alt="Screenshot"/>
@@ -72,8 +65,6 @@ https://drive.google.com/file/d/1WyAcNGo2ZlnpICuU2Kw4IUhBa-fdm4T3/view?usp=shari
 - ### **Jobs**
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/jobs.png" height="500" alt="Screenshot"/>
 
-
-
 ## License
 
 Copyright (c) 2020 Souvik Biswas and Soumi Bardhan
@@ -95,4 +86,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
