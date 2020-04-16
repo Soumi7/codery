@@ -41,24 +41,24 @@
 -  ### **Codery Introduction**
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/Coderystartpage.png" height="500" alt="Screenshot"/>
 
-- ### **IMMUNITY** 
+- ### **Contests** 
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/Screenshot%20from%202020-04-10%2016-55-08.png" height="500" alt="Screenshot"/>
 
-- ### **YOGA IN PREGNANCY** 
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+- ### **Linux command page** 
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/man1.png" height="500" alt="Screenshot"/>
 
 
-- ### **INSOMNIA** 
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+- ### **News** 
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/news.png" height="500" alt="Screenshot"/>
 
-- ### **CARDIOVASCULAR YOGA TRACT**
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+- ### **Jokes**
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/jokes.png" height="500" alt="Screenshot"/>
 
-- ### **MIGRAINE**
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+- ### **Search**
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/search_dictionary.png" height="500" alt="Screenshot"/>
 
-- ### **ASTHMA**
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+- ### **Calculator**
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/calculate.png" height="500" alt="Screenshot"/>
 
 ## License
 
