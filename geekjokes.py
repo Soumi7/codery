@@ -17,12 +17,12 @@ class news(object):
 handler_class = news
 '''
 
-def get_courses(content, bot_handler: Any) -> str:
+def get_joke(content, bot_handler: Any) -> str:
 	words = content.lower().split()
 	print(words)
 	joke = requests.get('https://geek-jokes.sameerkumar.website/api?format=json').json()
 	res = "" 
-	res=joke["courses"]
+	res=joke["joke"]
 	return res
 
 

@@ -5,8 +5,7 @@ import sys, os, zulip
 sys.path.insert(0,os.getcwd())
 
 import requests
-import calculator,todo, dictionary,news,geekjokes,courses, stackoverflow
-
+import calculator,todo, dictionary,news,geekjokes,courses
 from bs4 import BeautifulSoup
 
 from typing import Dict, Any, Union, List
