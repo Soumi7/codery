@@ -25,13 +25,18 @@
 
 - **Competitive programming news** get all news related to coding by specifying the keyword after news
 
-- **Search Technical Terms** get the meanings of any technical term
+- **Search Technical Terms** get the meanings of any technical term in an instant
 
-## How is PoseAI diffrent from all the applications out there
+- **Jokes** funny programming jokes to lighten up your mood but still keep you focused
 
-Why would you choose PoseAI? Simply because no other app out there implements **real time pose prediction technology**. Every time you are stuck on a step or an yogaasana, our PoseAI waits for you to complete it, and only then it gives intructions for the next asana, just like a personal yoga instructor who attends to you real time.
+- **Linux Man Page** gets the information about in linux command to zulip
 
-## Research proven benefits of yoga :
+- **Calculator** calculates any kind of mathematical operations to do directly on zulip
+
+
+
+
+## Screenshots :
 
 
 - Yoga can significantly improve mood and **reduc**e the symptoms of **depression** and anxiety.
