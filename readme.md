@@ -38,11 +38,11 @@
 
 
 
--  ### **POWER YOGA TRACK**
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+-  ### **Codery Introduction**
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/Coderystartpage.png" height="500" alt="Screenshot"/>
 
 - ### **IMMUNITY** 
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/Screenshot%20from%202020-04-10%2016-55-08.png" height="500" alt="Screenshot"/>
 
 - ### **YOGA IN PREGNANCY** 
 <img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
