@@ -13,9 +13,7 @@
 5. Run ``` bot.py ``` using python 3. ``` python3 bot.py ```
 6. Head over to your created zulip realm and start using the bot.
 
-## Screenshots
 
-<img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/> <img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen2.jpg" height="500"  alt="Screenshot"/> <img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen3.jpg" height="500"  alt="Screenshot"/>
 
 ## Features
 
@@ -39,8 +37,7 @@
 ## Screenshots :
 
 
-- Yoga can significantly improve mood and **reduc**e the symptoms of **depression** and anxiety.
-
+- <img src="https://github.com/sbis04/Healthcare-poseAI/blob/master/PoseAI%20images/screen1.jpg" height="500" alt="Screenshot"/>
 - Women who do yoga during and after treatment of **breast cancer** experience **less** physical discomfort and stress.
 
 - Yoga can lower **blood pressure, cholesterol**, and resting heart rates, and help slow the progression of atherosclerosis—all risk factors for heart disease.
