@@ -38,7 +38,7 @@
 
 ## Video Link
 
-https://drive.google.com/file/d/1WyAcNGo2ZlnpICuU2Kw4IUhBa-fdm4T3/view?usp=sharing is the link to a video demo.
+https://youtu.be/CujqAzNdcr0 is the link to a video demo.
 
 
 
