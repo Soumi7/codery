@@ -5,22 +5,28 @@ import sys, os, zulip
 sys.path.insert(0,os.getcwd())
 
 import requests
-import calculator,todo, dictionary,news,geekjokes,courses, jobs, leaderboard
+import calculator,todo, dictionary,news,geekjokes,courses, jobs, leaderboard,
 from bs4 import BeautifulSoup
 
 from typing import Dict, Any, Union, List
 
 
 def get_codery_result(codery_keywords: str) -> str:
-    help_message = "*Help for Codery bot* :robot_face: : \n\n" \
-                   "The bot responds to messages starting with @codery-bot.\n\n" \
-                   "`@codery-bot contests` will return top Contests today, their dates, time left and the links to each contest`.\n" \
-                   "`@codery-bot top contest` also returns the top Contest result.\n" \
-                   "`@codery-bot top <n> contests` will return n number of top contests at that time.\n \n" \
+    help_message = "*Help for Codery*  : \n\n" \
+                   "The bot responds to messages starting with @Codery.\n\n" \
+                   "`@Codery contests` will return top Contests today, their dates, time left and the links to each contest`.\n" \
+                   "`@Codery top contest` also returns the top Contest result.\n" \
+                   "`@Codery trending` returns the top trending ploblems across all programming platforms.\n" \
+                   "`@Codery dictionary <search term>` returns the meaning of that word in an instant.\n" \
+                   "`@Codery jokes` keeps your morale boosted with programming jokes.\n" \
+                   "`@Codery jobs <searchword>` returns the top jobs for that serach word and application links.\n" \
+                   "`@Codery news <keyword>` returns the latest news on the keyword.\n" \                   
+                   "`@Codery top <n> contests` will return n number of top contests at that time.\n \n" \
                    "Example:\n" \
-                   " * @codery-bot contests\n" \
-                   " * @codery-bot top contest\n" \
-                   " * @codery-bot top 7 contests"
+                   " * @Codery contests\n" \
+                   " * @Codery top contest\n" \
+                   " * @Codery top contest\n" \
+                   " * @Codery top 7 contests"
 
     
 
