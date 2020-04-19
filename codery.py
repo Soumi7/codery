@@ -21,6 +21,7 @@ def get_codery_result(codery_keywords: str) -> str:
                    "`@Codery jokes` keeps your morale boosted with programming jokes.\n" \
                    "`@Codery jobs <searchword>` returns the top jobs for that search word.\n" \
                    "`@Codery news <keyword>` returns the news for that key word.\n" \
+                   "`@Codery man <function>` returns the user manual of that function.\n" \
                    "`@Codery top <n> contests` will return n number of top contests at that time.\n \n" \
                    "Example:\n" \
                    " * @Codery contests\n" \
@@ -32,6 +33,7 @@ def get_codery_result(codery_keywords: str) -> str:
                    " * @Codery jobs pyhton\n" \
                    " * @Codery jobs java\n" \
                    " * @Codery trending\n" \
+                   " * @Codery man execvp\n" \
                    " * @Codery news corona"
 
     
