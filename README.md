@@ -12,9 +12,12 @@
 2. Goto to settings and create a new generic bot named 'codery'. (Settings can be found in dropdown of gear icon present in top right corner of zulip realm)
 3. Download the zuliprc file for your bot and place it in your Downloads directory as '.zuliprc'.
 ![](./images/instructions.png)  
-4. Install all the requirements using ``` pip install -r requirements.txt ```  
-5. Run ``` bot.py ``` using python 3. ``` python3 bot.py ```
+4. Install all the requirements using ``` pip3 install -r requirements.txt ```  inside the codery folder
+5. Actuvate the source.
+6. Run the bot
 6. Head over to your created zulip realm and start using the bot.
+
+### For a detailed description of how to run the bot, please check out this medium article https://medium.com/@soumibardhan10/codery-zulip-bot-for-competitive-programming-hackathons-jobs-and-more-8cd13106fe15
 
 ## Features
 
