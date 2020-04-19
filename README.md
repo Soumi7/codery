@@ -55,12 +55,13 @@ https://youtu.be/CujqAzNdcr0 is the link to a video demo.
 
 ## Screenshots :
 
--  ### **Codery Introduction**
+-  ### **Codery Help**
 
-![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_contests.png)
+![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_help.png)
 
 - ### **Contests** 
-<img src="https://github.com/Soumi7/codery/blob/master/Assets/Screenshot%20from%202020-04-10%2016-55-08.png" height="500" alt="Screenshot"/>
+
+![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_contests.png)
 
 - ### **Linux command page** 
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/man1.png" height="500" alt="Screenshot"/>
