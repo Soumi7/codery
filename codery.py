@@ -14,14 +14,14 @@ from typing import Dict, Any, Union, List
 def get_codery_result(codery_keywords: str) -> str:
     help_message = "*Help for Codery*  : \n\n" \
                    "The bot responds to messages starting with @Codery.\n\n" \
-                   "`@Codery contests` will return top Contests today, their dates, time left and the links to each contest`.\n" \
-                   "`@Codery top contest` also returns the top Contest result`.\n" \
-                   "`@Codery trending` returns the top trending ploblems across all programming platforms`.\n" \
-                   "`@Codery dictionary <search term>` returns the meaning of that word in an instant`.\n" \
-                   "`@Codery jokes` keeps your morale boosted with programming jokes`.\n" \
-                   "`@Codery jobs <searchword>` returns the top jobs for that search word`.\n" \
-                   "`@Codery news <keyword>` returns the news for that key word`.\n" \
-                   "`@Codery top <n> contests` will return n number of top contests at that time`.\n \n" \
+                   "`@Codery contests` will return top Contests today, their dates, time left and the links to each contest.\n" \
+                   "`@Codery top contest` also returns the top Contest result.\n" \
+                   "`@Codery trending` returns the top trending ploblems across all programming platforms.\n" \
+                   "`@Codery dictionary <search term>` returns the meaning of that word in an instant.\n" \
+                   "`@Codery jokes` keeps your morale boosted with programming jokes.\n" \
+                   "`@Codery jobs <searchword>` returns the top jobs for that search word.\n" \
+                   "`@Codery news <keyword>` returns the news for that key word.\n" \
+                   "`@Codery top <n> contests` will return n number of top contests at that time.\n \n" \
                    "Example:\n" \
                    " * @Codery contests\n" \
                    " * @Codery top contest\n" \
