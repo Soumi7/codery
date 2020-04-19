@@ -56,7 +56,8 @@ https://youtu.be/CujqAzNdcr0 is the link to a video demo.
 ## Screenshots :
 
 -  ### **Codery Introduction**
-<img src="https://github.com/Soumi7/codery/blob/master/Assets/Coderystartpage.png" height="500" alt="Screenshot"/>
+
+![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_contests.png)
 
 - ### **Contests** 
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/Screenshot%20from%202020-04-10%2016-55-08.png" height="500" alt="Screenshot"/>
