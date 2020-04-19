@@ -1,3 +1,5 @@
+![](https://github.com/Soumi7/codery/blob/master/Assets/codery_logo.png)
+
 # Codery
 
 **Codery** is a **Zulip Bot**.
