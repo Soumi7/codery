@@ -2,6 +2,10 @@
 
 **Codery** is a **Zulip Bot**.
 
+## Codery in action
+
+<img src="https://github.com/Soumi7/codery/blob/master/Assets/codery_demo.gif" height="500" alt="Codery Demo"/>
+
 ## Instructions to run locally:
 
 1. [Create a Zulip Realm](https://zulip.com/create_realm/)
