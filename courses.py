@@ -14,8 +14,7 @@ from bs4 import BeautifulSoup
 
 from typing import Dict, Any, Union, List
 
-udemy = Udemy("AEjZDfsJyulqyTvl1uaqHWNjVm0LUfmtIrjk5ubo", "QCjMgrPxB3wRIQexiVKRZqjbhUiDpnVXwaBOQTtVmSbrrzegtqI5iW4qbUYn33uevsGDrAY4Cb8yxwGEzKgHuUBOKIwsUsWSqoW0FuNhP5ggDSzv2OeIZcupsrFzoDgZ")
-
+udemy = Udemy(<CLIENT_ID>, <CLIENT_SECRET>)
 
 def get_courses(content, bot_handler: Any) -> str:
 	
