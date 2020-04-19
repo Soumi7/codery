@@ -39,6 +39,9 @@ def get_codery_result(codery_keywords: str) -> str:
     elif codery_keywords_list[0] == "leaderboard":
         return leaderboard.get_leaderboard()
 
+    elif codery_keywords_list[0] == "trending":
+        return trendingproblems.get_problems()
+
     elif codery_keywords_list[0] == "search" or codery_keywords_list[0] == "dictionary":
         return dictionary.get_dictionary_response(codery_keywords,CoderyHandler)
 
