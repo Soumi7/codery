@@ -34,6 +34,12 @@
 
 - **Latest Jobs** gives job titles and application links on zulip using the Github Jobs API
 
+- **Udemy courses** gives the latest popular Udemy courses using the Udemy Affiliate API
+
+- **Trending Problems** know what are the trending problems over all competitive coding platforms globally
+
+- **Leaderboard** gives leaderboard of programmers all over the world
+
 - **Memo** can keep a list of jobs to do
 
 
