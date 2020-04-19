@@ -1,4 +1,5 @@
 import sys, os
+import config
 sys.path.insert(0,os.getcwd())
 
 import requests
@@ -14,7 +15,7 @@ from bs4 import BeautifulSoup
 
 from typing import Dict, Any, Union, List
 
-udemy = Udemy(<CLIENT_ID>, <CLIENT_SECRET>)
+udemy = Udemy(config.CLIENT_ID, config.CLIENT_SECRET)
 
 def get_courses(content, bot_handler: Any) -> str:
 	
