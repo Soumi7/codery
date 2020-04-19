@@ -1,4 +1,4 @@
-# codery
+# Codery
 
 **Codery** is a **Zulip Bot**.
 
