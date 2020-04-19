@@ -82,7 +82,8 @@ https://youtu.be/CujqAzNdcr0 is the link to a video demo.
 ![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_dictionary.png)
 
 - ### **Calculator**
-<img src="https://github.com/Soumi7/codery/blob/master/Assets/calculate.png" height="500" alt="Screenshot"/>
+
+![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_calculator.png)
 
 - ### **Jobs**
 
