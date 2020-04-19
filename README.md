@@ -65,6 +65,18 @@ https://youtu.be/CujqAzNdcr0 is the link to a video demo.
 
 ![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_contests_2.png)
 
+- ### **Courses** 
+
+![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_courses.png)
+
+- ### **Leaderboard** 
+
+![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_leaderboard.png)
+
+- ### **Trending** 
+
+![Codery Help](https://github.com/Soumi7/codery/blob/master/Assets/s_trending.png)
+
 - ### **Linux command page** 
 <img src="https://github.com/Soumi7/codery/blob/master/Assets/man1.png" height="500" alt="Screenshot"/>
 
