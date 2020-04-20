@@ -1,4 +1,6 @@
-![](https://github.com/Soumi7/codery/blob/master/Assets/codery_logo.png)
+<p align="center">
+  <img width="300" src="https://github.com/Soumi7/codery/blob/master/Assets/codery_logo.png">
+</p>
 
 # Codery
 
